@@ -5,10 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
 <style>
 body, html {
     height: 100%;
     font-family: "Inconsolata", sans-serif;
+    background:lightgrey;
 }
 .bgimg {
     background-position: center;
@@ -19,78 +23,115 @@ body, html {
 .menu {
     display: none;
 }
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.facebook {
+  background: transparent;
+  color: transparent;
+}
+
+.twitter {
+  background: transparent;
+  color: transparent;
+}
+
+.instagram {
+  background: transparent;
+  color: transparent;
+}
+
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
 </style>
 <body>
+
+
 
 <!-- Links (sit on top) -->
 <div class="w3-top">
   <div class="w3-row w3-padding w3-black">
+
     <div class="w3-col s3">
-      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+      <a class=" w3-block w3-black" style="width: 50%; margin-left: 0%;"> <img src="images/logo.jpg" style="height: 15%; width:30%; margin-right: 0%"></a>
     </div>
     <div class="w3-col s3">
-      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+      <a href="index.html#home" class="w3-button w3-block w3-black" style="width: 30%; margin-rigt: 0%; position: relative; right: 25%">HOME</a>
     </div>
     <div class="w3-col s3">
-      <a href="#clothing" class="w3-button w3-block w3-black">CLOTHING</a>
+      <a href="index.html#shop" class="w3-button w3-block w3-black" style="width: 30%; margin-rigt: 0%; position: relative; right: 25%">SHOP</a>
     </div>
     <div class="w3-col s3">
-      <a href="#cart" class="w3-button w3-block w3-black">CART</a>
+      <a href="index.html#about" class="w3-button w3-block w3-black" style="width: 30%; margin-right: 0%; position: relative; right: 25%">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href=checkout.html class="w3-button w3-block w3-black" style="width: 30%; margin-left: 250%; position: relative; bottom: 35px"> CART <i class="fa fa-shopping-cart"></i></a>
     </div>
   </div>
 </div>
+
 
 <!-- Header with image -->
 <header class="bgimg w3-display-container w3-grayscale-min" id="home">
   <div class="w3-display-topleft w3-center w3-padding-large w3-hide-small">
 <br><br><br>
- <div class="w3-container">  <img src="images/logo.jpg" style="width:25%; margin-right: 50%"> </div>
-    <span class="w3-tag" style= "margin-right: 45%">Since 2018</span>
-  </div>
+ <!-- icon-bar -->
+ <div class="icon-bar">
+ <a href="https://www.instagram.com/mojapparel/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+ <a href="https://www.instagram.com/mojapparel/" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+ <a href="https://www.instagram.com/mojapparel/" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
+ </div>
+</div>
   <!-- <div class="w3-display-middle w3-center">
     <span class="w3-text-black" style="font-size:90px">MØJ</span>
   </div> -->
 </header>
 
-<!-- Add a background color and large text to the whole page -->
-<div class="w3-sand w3-grayscale w3-large">
 
-<!-- About Container -->
-<div class="w3-container" id="about">
-  <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">WHO WE ARE</span></h5>
-    <p>MØJ t-shirts was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <p>as founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <div class="w3-panel w3-leftbar w3-light-grey">
-      <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
-      <p>MØJ</p>
-    </div>
-    <img src="images/standupBackwards.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
-    <!-- <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p> -->
-    <p><strong>Proudly made in Hamilton</strong></p>
-  </div>
-</div>
 
 <!-- Menu Container -->
 
     <!-- Product grid -->
-    <div class="w3-container" id="clothing">
-        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Clothing</span></h5>
+    <div class="w3-container" id="shop">
+        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">shop</span></h5>
 
-     <div class="w3-row w3-grayscale">
+     <div class="w3-row w3">
        <div class="w3-col l3 s6">
-         <div class="w3-container">
+         <div class="w3-container-large">
            <img src="images/side.jpg" style="width:100%">
            <p>The cool shirt<br><b>$24.99</b></p>
          </div>
-         <div class="w3-container">
+         <div class="w3-container-large">
            <img src="images/sideWeffects.jpg" style="width:100%">
            <p>Mega Cool shirt<br><b>$19.99</b></p>
          </div>
        </div>
 
        <div class="w3-col l3 s6">
-         <div class="w3-container">
+         <div class="w3-container-large">
            <div class="w3-display-container">
              <img src="images/standup.jpg" style="width:100%">
              <span class="w3-tag w3-display-topleft">New</span>
@@ -100,18 +141,18 @@ body, html {
            </div>
            <p>Amazing shirt<br><b>$19.99</b></p>
          </div>
-         <div class="w3-container">
+         <div class="w3-container-large">
            <img src="images/standupBackwards.jpg" style="width:100%">
            <p>Washed Shirt<br><b>$20.50</b></p>
          </div>
        </div>
 
        <div class="w3-col l3 s6">
-         <div class="w3-container">
+         <div class="w3-container-large">
            <img src="images/redDoor.jpg" style="width:100%">
            <p>Washed Skinny shirt<br><b>$20.50</b></p>
          </div>
-         <div class="w3-container">
+         <div class="w3-container-large">
            <div class="w3-display-container">
              <img src="images/standup.jpg" style="width:100%">
              <span class="w3-tag w3-display-topleft">Sale</span>
@@ -124,17 +165,44 @@ body, html {
        </div>
 
        <div class="w3-col l3 s6">
-         <div class="w3-container">
+         <div class="w3-container-large">
            <img src="images/standup.jpg" style="width:100%">
            <p>Vintage Skinny shirt<br><b>$14.99</b></p>
          </div>
-         <div class="w3-container">
+         <div class="w3-container-large">
            <img src="images/standupBackwards.jpg" style="width:100%">
            <p>Ripped shirt<br><b>$24.99</b></p>
          </div>
        </div>
      </div>
 </div>
+
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-lightgrey w3 w3-large">
+
+<!-- About Container -->
+
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">WHO WE ARE</span></h5>
+
+    <p>MØJ t-shirts was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>as founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -1px">
+        <div class="w3-third w3-light-grey">
+        </div>
+          <a href="https://www.facebook.com/luisnavarrodelangel1" target="_blank" style = "padding:2.5%">  <i  class="fa fa-facebook w3-xxlarge"></i></a>
+          <a href="https://twitter.com/navarrodelangel" target="_blank" style = "padding:2.5%"> <i class="fa fa-twitter w3-xxlarge"></i></a>
+          <a href="https://www.github.com/luisnavarrodelangel" target="_blank"  style = "padding:2.5%"> <i class="fa fa-github w3-xxlarge"></i></a></p>
+        </div>
+    </div>
+    <p><strong>Proudly made in Hamilton</strong></p>
+  </div>
+</div>
+
+
      <!-- Subscribe section -->
      <div class="w3-container w3-black w3-padding-32">
        <h1>Subscribe</h1>
