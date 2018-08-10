@@ -145,6 +145,34 @@ img {vertical-align: middle;}
   background-color: blue;
 }
 
+.item_add1 {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  /* border-bottom-right-radius: 50%; */
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 10px 15px;
+  background: url(0) white;
+}
+a.item_add1:hover{
+	background:gray;
+	text-decoration:none;
+	color:#fff;
+}
+
+
+.span_3_of_2 p{
+	color:black;
+	font-size:0.85em;
+	line-height:1.8em;
+}
+.desc1 {
+  display: block;
+  float: left;
+}
 </style>
 <body>
 
@@ -248,17 +276,58 @@ function showSlides() {
 <!-- Menu Container -->
 
     <!-- Product grid -->
-
     <div class="w3-container" id="shop">
-        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">shop</span></h5>
+            <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">shop</span></h5>
 
-     <div class="w3-row w3">
-       <div class="w3-col l3 s6">
-         <div class="w3-container-large">
-           <img src="images/side.jpg" style="width:200%; margin-left:10%">
+         <div class="w3-row w3">
+           <div class="w3-col l3 s6">
+             <div class="w3-container-large">
+               <div class="w3-display-container" style="left:25%">
+               <img src="images/side.jpg" style="width:200%">
+             </div>
+           </div>
+
          </div>
+           <div class="w3-col l3 s6">
+             <div class="w3-container-large">
+               <div class="w3-display-container" style="left:150%; bottom:20px">
 
-</div>
+                 <div class="desc1 span_3_of_2">
+                 <h2>Buy an original model</h2>
+<br>
+                    <div class="dropdown_top">
+                      <div class="dropdown_left">
+                      <select class="dropdown" tabindex="10" data-settings='{"wrapperClass":"metro1"}'>
+                     <option value="0">Select size</option>
+                     <option value="1">S</option>
+                     <option value="2">M</option>
+                     <option value="3">L </option>
+                           </select>
+                         </div>
+
+                    <div class="clearfix"></div>
+                      </div>
+                      <div class="simpleCart_shelfItem">
+                       <div class="price_single">
+
+                     <div class="head"><h2><span class="amount item_price">$45.00</span></h2></div>
+                        <div class="clearfix"></div>
+                      </div>
+                            <!--<div class="single_but"><a href="" class="item_add btn_3" value=""></a></div>-->
+                           <div class="size_2-right"><a href="#" class="item_add item_add1 btn_5" value="" />Add to Cart </a></div>
+                            <br>
+                           <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum</p>
+
+                      </div>
+                 </div>
+                       <div class="clearfix"></div>
+                      </div>
+                 </div>
+               </div>
+             </div>
+          </div>
+    </div>
+
 
 
 <!-- Add a background color and large text to the whole page -->
@@ -269,7 +338,6 @@ function showSlides() {
 <div class="w3-container" id="about">
   <div class="w3-content" style="max-width:700px">
     <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOÜT</span></h5>
-
     <p>MØJ is based in Hamilton, Ontario. A lifestyle brand that refuses the status quo and embraces originality. Inspired by the beauty of non-mainstream arts in different forms and shapes. Acidwashed apparel designed and produced in Canada. We give acid wash treatment to our apparel by hand in order to achieve a completely unique pattern. It's a special treatment for you, and you only ; )</p>
     <p></p>
     <div class="w3-panel w3-leftbar w3-light-grey">
@@ -284,6 +352,7 @@ function showSlides() {
     <p><strong>Proudly made in Hamilton</strong></p>
   </div>
 </div>
+
 
 
      <!-- Subscribe section -->
