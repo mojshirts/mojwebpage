@@ -7,202 +7,39 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-
-<style>
-body, html {
-    height: 100%;
-    font-family: "Inconsolata", sans-serif;
-    background:#acacac;
-}
-.bgimg {
-    background-position: center;
-    background-size: cover;
-    background-image: url("images/redDoor.jpg");
-    min-height: 100%;
-}
-.menu {
-    display: none;
-}
-
-.icon-bar {
-  position: fixed;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.icon-bar a {
-  display: block;
-  text-align: center;
-  padding: 16px;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 20px;
-}
-
-.icon-bar a:hover {
-    background-color: #000;
-}
-
-.facebook {
-  background: transparent;
-  color: transparent;
-}
-
-.twitter {
-  background: transparent;
-  color: transparent;
-}
-
-.instagram {
-  background: transparent;
-  color: transparent;
-}
-
-
-.content {
-  margin-left: 75px;
-  font-size: 30px;
-}
-
-
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  width: 1000px;
-  position: relative;
-  right: 20%;
-  margin: auto;
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 10px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 10s;
-  animation-name: fade;
-  animation-duration: 10s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}
-
-//rectangle
-.rectangle {
-  height: 50px;
-  width: 200%;
-  background-color: blue;
-}
-
-.item_add1 {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-top-right-radius: 0;
-  /* border-bottom-right-radius: 50%; */
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  padding: 10px 15px;
-  background: url(0) white;
-}
-a.item_add1:hover{
-	background:gray;
-	text-decoration:none;
-	color:#fff;
-}
-
-
-.span_3_of_2 p{
-	color:black;
-	font-size:0.85em;
-	line-height:1.8em;
-}
-.desc1 {
-  display: block;
-  float: left;
-}
-</style>
+<link rel="stylesheet" href="style.css">
 <body>
-
-
 
 
 <!-- Links (sit on top) -->
 <div class="w3-top">
   <div class="w3-row w3-padding w3-black">
-
     <div class="w3-col s3">
-      <a class=" w3-block w3-black" style="width: 50%; margin-left: 0%;"> <img src="images/logo.jpg" style="height: 15%; width:30%; margin-right: 0%"></a>
+      <a class=" w3-block w3-black" style="width: 50%; margin-left: 0%;"> <img src="images/logo.jpg" style="height: 15%; width:30%; position: relative; top: 15px"></a>
     </div>
-<br>
+    <br>
     <div class="w3-col s3">
-      <a href="index.html#home" class="w3-button w3-block w3-black" style="width: 30%; margin-rigt: 0%; position: relative; right: 25%">HOME</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="index.html#shop" class="w3-button w3-block w3-black" style="width: 30%; margin-rigt: 0%; position: relative; right: 25%">SHOP</a>
+      <a href="index.html#home" class="w3-button w3-block w3-black" style="width: 70%; margin-rigt: 0%; position: relative; right: 70%;">HOME</a>
     </div>
     <div class="w3-col s3">
-      <a href="index.html#about" class="w3-button w3-block w3-black" style="width: 30%; margin-right: 0%; position: relative; right: 25%">ABOÜT</a>
+      <a href="index.html#shop" class="w3-button w3-block w3-black" style="width: 70%; margin-rigt: 0%; position: relative; right: 70%">SHOP</a>
     </div>
     <div class="w3-col s3">
-      <a href=checkout.html class="w3-button w3-block w3-black" style="width: 30%; margin-left: 250%; position: relative; bottom: 35px"> CART <i class="fa fa-shopping-cart"></i></a>
+      <a href="index.html#about" class="w3-button w3-block w3-black" style="width: 70%; margin-right: 0%; position: relative; right: 70%">ABOÜT</a>
+    </div>
+      <!-- <a href=checkout.html class="w3-button w3-block w3-black" style="width: 30%; margin-left: 250%; position: relative; bottom: 35px"> CART <i class="fa fa-shopping-cart"></i></a> -->
+      <div class="w3-col s3">
+        <a href=checkout.html class="w3-button w3-block w3-black" style="width: 70%; margin-left: 250%; position: relative; bottom: 40px; right: 30%"> CART: <span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)<img src="images/cart.png" alt=""/></a>
+      </div>
     </div>
   </div>
 </div>
 
+			 <!-- <div class="box_1">
+				 <a href="cart.html"><h3>Cart: <span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)<img src="images/cart.png" alt=""/></h3></a>
+				 <p><a href="javascript:;" class="simpleCart_empty">empty cart</a></p>
 
+			 </div> -->
 
 
 <!-- Header with image -->
@@ -326,7 +163,6 @@ function showSlides() {
                </div>
              </div>
           </div>
-    </div>
 
 
 
