@@ -32,30 +32,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </head>
 <body>
 
-<!--header-->
-<!-- Links (sit on top) -->
-<div class="w3-top">
-  <div class="w3-row w3-padding w3-black">
-    <div class="w3-col s3">
-      <a class=" w3-block w3-black" style="width: 50%; margin-left: 0%;"> <img src="images/logo.jpg" style="height: 15%; width:30%; position: relative; top: 15px"></a>
-    </div>
-    <br>
-    <div class="w3-col s3">
-      <a href="index.html#home" class="w3-button w3-block w3-black" style="width: 70%; margin-rigt: 0%; position: relative; right: 70%;">HOME</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="index.html#shop" class="w3-button w3-block w3-black" style="width: 70%; margin-rigt: 0%; position: relative; right: 70%">SHOP</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="index.html#about" class="w3-button w3-block w3-black" style="width: 70%; margin-right: 0%; position: relative; right: 70%">ABOÜT</a>
-    </div>
-      <!-- <a href=checkout.html class="w3-button w3-block w3-black" style="width: 30%; margin-left: 250%; position: relative; bottom: 35px"> CART <i class="fa fa-shopping-cart"></i></a> -->
+
+  <!-- Links (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-row w3-padding w3-black">
       <div class="w3-col s3">
-        <a href=cart.html class="w3-button w3-block w3-black" style="width: 70%; margin-left: 250%; position: relative; bottom: 40px; right: 30%"> CART: <span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)<img src="images/cart.png" alt=""/></a>
+        <a class=" w3-block w3-black" style="width: 50%; margin-left: 0%;"> <img src="images/logo.jpg" style="height: 15%; width:30%; position: relative; top: 5px; "></a>
+      </div>
+      <div class="w3-col s3">
+        <a href="index.html#home" class="w3-button w3-block w3-black" style="width: 70%; margin-rigt: 0%; position: relative; right: 70%;top:20px">HOME</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="index.html#shop" class="w3-button w3-block w3-black" style="width: 70%; margin-rigt: 0%; position: relative; right: 70%;top:20px">SHOP</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="index.html#about" class="w3-button w3-block w3-black" style="width: 70%; margin-right: 0%; position: relative; right: 70%;top:20px">ABOÜT</a>
+      </div>
+        <!-- <a href=checkout.html class="w3-button w3-block w3-black" style="width: 30%; margin-left: 250%; position: relative; bottom: 35px"> CART <i class="fa fa-shopping-cart"></i></a> -->
+        <div class="w3-col s3">
+          <a href=cart.html class="w3-button w3-block w3-black" style="width: 70%; margin-left: 250%; position: relative; bottom: 20px; right: 30%"><img src="images/cart.png" alt=""/> CART: <span id="simpleCart_quantity" class="simpleCart_quantity"></span> item(s) </a>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
 <br><br><br><br><br>
 
@@ -68,45 +67,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		 </div>
 
 		 <div class="col-md-9 cart-items">
-			 <h3>My Shopping Bag</h3>
-				<script>$(document).ready(function(c) {
-					$('.close1').on('click', function(c){
-						$('.cart-header').fadeOut('slow', function(c){
-							$('.cart-header').remove();
-						});
-						});
-					});
-			   </script>
+			 <h4>My Shopping Bag</h4>
 			 <div class="cart-header">
 				 <div class="close1"> </div>
 				 <div class="cart-sec">
 						<div class="cart-item cyc">
 							 <img src="images/2.jpg" style="width:60%; position:relative; left:2.5%">
 						</div>
-					   <div class="cart-item-info" style="width:30%; position:relative; left: 80%; bottom:100px">
-							 <!-- <h3>Mast & Harbour<span>Model No: 3578</span></h3>
-							 <h4><span>Rs. $ </span>150.00</h4> -->
+					   <div class="cart-item-info" style="width:30%; position:relative; left: 80%; bottom:150px">
 							 <p class="qty">Quantity:</p>
-							 <input min="1" type="number" id="quantity" name="quantity" value="1" class="form-control input-small">
-               <span>Delivered in 2-3 bussiness days</span>
-
-					   </div>
-					   <div class="clearfix"></div>
-						<div class="delivery">
-							 <!-- <p>Service Charges:: Rs.50.00</p> -->
-							 <span>Delivered in 2-3 bussiness days</span>
-							 <div class="clearfix"></div>
-				        </div>
+                <div class="product-info simpleCart_shelfItem">
+    							<div class="product-info-cust">
+    								<input type="text" class="item_quantity" value="0" />
+    								<input type="button" class="item_add" value="ADD">
+    							</div>
+    							<div class="clearfix"> </div>
+    						</div>
 				  </div>
+        </div>
 			 </div>
-			 <script>$(document).ready(function(c) {
-					$('.close2').on('click', function(c){
-							$('.cart-header2').fadeOut('slow', function(c){
-						$('.cart-header2').remove();
-					});
-					});
-					});
-			 </script>
 			 <div class="cart-header2">
 				 <div class="close2"> </div>
 				  <div class="cart-sec">
@@ -131,37 +110,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <!--cart total   -->
 		 <div class="col-md-3 cart-total"  style="position:relative; right: 17%; top:50px">
-			 <a class="continue" style="background:orange; height: 100%" href="#">Continue to basket</a>
 			 <div class="price-details">
 				 <h3>Price Details</h3>
 				 <span>Total</span>
 				 <span class="total">350.00</span>
-				 <span>Discount</span>
-				 <span class="total">---</span>
-				 <span>Delivery Charges</span>
-				 <span class="total">100.00</span>
+          <br>
+         <span>Taxes</span>
+				 <span class="total">10.00</span>
 				 <div class="clearfix"></div>
 			 </div>
 			 <h4 class="last-price">TOTAL</h4>
-			 <span class="total final">450.00</span>
+			 <span class="total final">360.00</span>
 			 <div class="clearfix"></div>
-			 <a class="order" href="#">Place Order</a>
+			 <a class="order" href="checkout.html" style="background:orange; height: 100%; font-size:200%" href="#">Place Order</a>
 			 <div class="total-item">
 			 </div>
 			</div>
 	 </div>
 </div>
-
-<!--fotter-->
-<div class="fotter-logo">
-	 <div class="container">
-	 <div class="ftr-info">
-	 <p>&copy; 2015 All Rights Reseverd Design by <a href="http://w3layouts.com/">W3layouts</a> </p>
-	</div>
-	 <div class="clearfix"></div>
-	 </div>
 </div>
-<!--fotter//-->
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css & W3layouts</a></p>
+</footer>
+
 
 </body>
 </html>

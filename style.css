@@ -1,8 +1,24 @@
 body, html {
     height: 100%;
-    font-family: "Inconsolata", sans-serif;
+    /* font-family: "PfefferSG", halbfett; */
     background:#acacac;
 }
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(PfefferSG_halbfett.otf);
+}
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(PfefferSG_halbfett.otf);
+   font-weight: bold;
+}
+
+* {
+   font-family: myFirstFont;
+}
+
 .bgimg {
     background-position: center;
     background-size: cover;
