@@ -15,7 +15,7 @@
 
 <!-- Links (sit on top) -->
 <div class="w3-top">
-  <div class="w3-row w3-padding w3-black">
+  <div class="w3-row w3-padding w3-black" style="width:100%">
     <div class="w3-col s3">
       <a class=" w3-block w3-black" style="width: 50%; margin-left: 0%;"> <img src="images/logo.jpg" style="height: 15%; width:30%; position: relative; top: 5px; "></a>
     </div>
@@ -32,8 +32,8 @@
       <div class="w3-col s3">
         <form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
         <input type="hidden" name="cmd" value="_s-xclick">
-        <!-- <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
-        "> -->
+        <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+        ">
         <!-- <a href=cart.html class="w3-button w3-block w3-black" style="width: 70%; margin-left: 250%; position: relative; bottom: 20px; right: 30%"><img src="images/cart.png" alt=""/> CART: <span id="simpleCart_quantity" class="simpleCart_quantity"></span> item(s) </a> -->
 
        <input type="image" class="w3-button w3-block w3-black" style="font-size: 105%; width: 70%; margin-left: 250%; position: relative; bottom: 20px; right: 30%" border="0" name="submit" alt="CART" ><i class="fa fa-shopping-cart" style= "position:relative; bottom: 53px; left: 265%"></i>
@@ -49,30 +49,23 @@
 
 			 </div> -->
 
-
 <!-- Header with image -->
-<h2>Automatic Slideshow</h2>
-<p>Change image every 2 seconds:</p>
-
-<div class="slideshow-container" style="bottom:20px" id= "home">
+<div class="slideshow-container" style="bottom:20px; width:100%" id= "home">
 
 <div class="mySlides fade">
-  <img src="images/2.jpg" style="width:170%">
-  <div class="text" style= "position:relative; left:27%; bottom:1050px; font-size: 600% ">MØJ </div>
+  <img src="images/2resized.jpg" style="width:150%">
 </div>
 
 <div class="mySlides fade">
-  <img src="images/DSC_4777.jpg" style="width:170%">
-  <div class="text" style= "position:relative; left:27%; bottom:1300px; font-size: 600% ">MØJ </div>
+  <img src="images/DSC_4777.jpg" style="width:150%">
+  <!-- <div class="text" style= "position:relative; left:27%; bottom:1300px; font-size: 600% ">MØJ </div> -->
 </div>
 
 <div class="mySlides fade">
-  <img src="images/DSC_4868 copy.jpg" style="width:170%">
-  <div class="text" style= "position:relative; left:27%; bottom:1080px; font-size: 600% ">MØJ </div>
-</div>5
-
+  <img src="images/DSC_4868resized.jpg" style="width:150%">
+  <!-- <div class="text" style= "position:relative; left:27%; bottom:1080px; font-size: 600% ">MØJ </div> -->
 </div>
-
+</div>
 <div style="text-align:center">
   <span class="dot"></span>
   <span class="dot"></span>
@@ -100,6 +93,9 @@ function showSlides() {
     setTimeout(showSlides, 10000); // Change image every 2 seconds
 }
 </script>
+
+<!--Moj  -->
+<div class="w3-text w3-block " style= "position:relative; margin-left: auto; margin-right: auto; bottom:240%; max-width:25%; font-size: 1200%">MØJ</div>
 
  <!-- icon-bar -->
  <div class="icon-bar">
@@ -140,7 +136,7 @@ function showSlides() {
                  <input type="hidden" name="cmd" value="_s-xclick">
                  <input type="hidden" name="hosted_button_id" value="LGD5GC8F9538S">
                  <table>
-                 <tr><td style="font-size:150%"><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                 <tr><td style="font-size:150%;color:black"><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
                  	<option value="Extra small">Extra small $50.00 CAD</option>
                  	<option value="Small">Small $50.00 CAD</option>
                  	<option value="Medium">Medium $50.00 CAD</option>
@@ -188,18 +184,17 @@ function showSlides() {
     <br> <br><br><br>
 
     <h2 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOÜT</span></h2>
-    <p>MØJ is based in Hamilton, Ontario. A lifestyle brand that refuses the status quo and embraces originality. Inspired by the beauty of non-mainstream arts in different forms and shapes. Acidwashed apparel designed and produced in Canada. We give acid wash treatment to our apparel by hand in order to achieve a completely unique pattern. It's a special treatment for you, and you only ; )</p>
-    <p></p>
-    <div class="w3-panel w3-leftbar w3-light-grey">
+    <p style="font-size:150%; color:black;text-align: justify;text-justify: inter-word"> MØJ is based in Hamilton, Ontario. A lifestyle brand that refuses the status quo and embraces originality. Inspired by the beauty of non-mainstream arts in different forms and shapes. Acidwashed apparel designed and produced in Canada. We give acid wash treatment to our apparel by hand in order to achieve a completely unique pattern. It's a special treatment for you, and you only ; )</p>
+    <!-- <div class="w3-panel w3-leftbar w3-light-grey">
       <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -1px">
         <div class="w3-third w3-light-grey">
-        </div>
-          <a href="https://www.instagram.com/mojapparel/" target="_blank" style = "padding:2.5%">  <i  class="fa fa-facebook w3-xxlarge"></i></a>
+        </div> -->
+          <!-- <a href="https://www.instagram.com/mojapparel/" target="_blank" style = "padding:2.5%">  <i  class="fa fa-facebook w3-xxlarge"></i></a>
           <a href="https://www.instagram.com/mojapparel/" target="_blank" style = "padding:2.5%"> <i class="fa fa-twitter w3-xxlarge"></i></a>
-          <a href="https://www.instagram.com/mojapparel/" target="_blank"  style = "padding:2.5%"> <i class="fa fa-github w3-xxlarge"></i></a></p>
+          <a href="https://www.instagram.com/mojapparel/" target="_blank"  style = "padding:2.5%"> <i class="fa fa-github w3-xxlarge"></i></a></p> -->
         </div>
     </div>
-    <p><strong>Proudly made in Hamilton</strong></p>
+    <!-- <p><strong>Proudly made in Hamilton</strong></p> -->
   </div>
 </div>
 
@@ -218,22 +213,6 @@ function showSlides() {
 <!-- End page content -->
 </div>
 
-
-// Tabbed Menu
-function openMenu(evt, menuName) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("menu");
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < x.length; i++) {
-     tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
-  }
-  document.getElementById(menuName).style.display = "block";
-  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
-}
-document.getElementById("myLink").click();
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 <!--
