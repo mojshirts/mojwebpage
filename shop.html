@@ -23,7 +23,7 @@
       <a href="index.html#home" class="w3-button w3-block w3-black" style="font-size: 200%; width: 70%; margin-rigt: 0%; position: relative; right: 73%;top:10px">HOME</a>
     </div>
     <div class="w3-col s3">
-      <a href="index.html#shop" class="w3-button w3-block w3-black" style="font-size: 200%; width: 70%; margin-rigt: 0%; position: relative; right: 73%;top:10px">SHOP</a>
+      <a href="shop.html" class="w3-button w3-block w3-black" style="font-size: 200%; width: 70%; margin-rigt: 0%; position: relative; right: 73%;top:10px">SHOP</a>
     </div>
     <div class="w3-col s3">
       <a href="index.html#about" class="w3-button w3-block w3-black" style="font-size: 200%; width: 70%; margin-right: 0%; position: relative; right: 73%;top:10px">ABOÜT</a>
@@ -40,62 +40,12 @@
       </div>
     </div>
   </div>
-</div>
-
+  </div>
 			 <!-- <div class="box_1">
 				 <a href="cart.html"><h3>Cart: <span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)<img src="images/cart.png" alt=""/></h3></a>
 				 <p><a href="javascript:;" class="simpleCart_empty">empty cart</a></p>
 
 			 </div> -->
-
-<!-- Header with image -->
-<div class="slideshow-container" style="bottom:20px; width:100%" id= "home">
-
-<div class="mySlides fade">
-  <img src="images/2resized.jpg" style="width:150%">
-</div>
-
-<div class="mySlides fade">
-  <img src="images/DSC_4777.jpg" style="width:150%">
-  <!-- <div class="text" style= "position:relative; left:27%; bottom:1300px; font-size: 600% ">MØJ </div> -->
-</div>
-
-<div class="mySlides fade">
-  <img src="images/DSC_4868resized.jpg" style="width:150%">
-  <!-- <div class="text" style= "position:relative; left:27%; bottom:1080px; font-size: 600% ">MØJ </div> -->
-</div>
-</div>
-<div style="text-align:center">
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-</div>
-
-<script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 10000); // Change image every 2 seconds
-}
-</script>
-
-<!--Moj  -->
-<div class="w3-text w3-block w3-black" style= "opacity: 0.9; position:relative; margin-left: auto; height: 55%; margin-right: auto; bottom:245%; max-width:45%; font-size: 2000%"></div>
-<div class="w3-text-white w3-block" style= "position:relative; margin-left: auto;  margin-right: auto; bottom:310%; max-width:40%; font-size: 2000%">MØJ</div>
 
 
  <!-- icon-bar -->
@@ -110,37 +60,11 @@ function showSlides() {
   </div> -->
 </header>
 
+
 <!-- Menu Container -->
+
     <!-- Product grid -->
-    <!-- <h2 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">SHOP</span></h2> -->
-
-    <div class="w3-content w3-section"  id="shop" style="max-width:500px; position:relative; bottom: 140%; height: 500px" >
-      <br><br><br><br><br><br>
-      <img class="shopSlides" src="images/side.jpg" style="width:100%">
-      <img class="shopSlides" src="images/2.jpg" style="width:100%">
-      <img class="shopSlides" src="images/sideWeffects.jpg" style="width:100%">
-      <a href="shop.html" class="w3-center w3-padding-48" ><span class="w3-tag w3-wide" style="font-size:150%; position:relative; bottom:200px; left: 7%">Buy an øriginal acidwashed tee </span></a>
-
-    </div>
-</div>
-    <script>
-    var myIndex = 0;
-    carousel();
-
-    function carousel() {
-        var i;
-        var x = document.getElementsByClassName("shopSlides");
-        for (i = 0; i < x.length; i++) {
-           x[i].style.display = "none";
-        }
-        myIndex++;
-        if (myIndex > x.length) {myIndex = 1}
-        x[myIndex-1].style.display = "block";
-        setTimeout(carousel, 2000); // Change image every 2 seconds
-    }
-    </script>
-
-    <!-- <div class="w3-container" id="shop">
+    <div class="w3-container" id="shop">
       <br> <br><br><br>
             <h2 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">SHOP</span></h2>
          <div class="w3-row w3">
@@ -150,40 +74,48 @@ function showSlides() {
                <img src="images/side.jpg" style="width:160%">
              </div>
            </div>
-         </div> -->
+         </div>
+
+         <!--shopping cart  -->
+           <div class="w3-col l3 s6">
+             <div class="w3-container-large">
+               <div class="w3-display-container" style="left:150%; bottom:40px">
+                 <div class="desc1 span_3_of_2">
+                 <p style="font-size:200%">Buy an original model</p>
+
+                 <form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                 <input type="hidden" name="cmd" value="_s-xclick">
+                 <input type="hidden" name="hosted_button_id" value="BTWYNU4C8F4K8">
+                 <table>
+                 <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                 	<option value="Small">Small $50.00 CAD</option>
+                 	<option value="Medium">Medium $50.00 CAD</option>
+                 	<option value="Large">Large $50.00 CAD</option>
+                 </select> </td></tr>
+                 <tr><td><input type="hidden" name="on1" value="NØTES">NØTES</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
+                 </table>
+                 <input type="hidden" name="currency_code" value="CAD">
+                 <input type="image"  class="w3-button w3-block w3-black" border="0" name="submit" alt="add to basket" style="font-size:150%">
+                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                 </form>
+
+                     <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p>
+
+                      </div>
+                 </div>
+                       <div class="clearfix"></div>
+                      </div>
+                 </div>
+               </div>
+             </div>
+          </div>
+
+
 
 <!-- Add a background color and large text to the whole page -->
 <div class="w3-lightgrey w3 w3-large">
 
-<!-- About Container -->
-<div class="w3-container" id="about" style="position:relative; bottom: 1050px">
-  <div class="w3-content" style="max-width:700px; height: 1px">
-    <br> <br><br><br>
-
-    <h2 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOÜT</span></h2>
-    <p style="font-size:150%; color:black;text-align: justify;text-justify: inter-word"> MØJ is based in Hamilton, Ontario. A lifestyle brand that refuses the status quo and embraces originality. Inspired by the beauty of non-mainstream arts in different forms and shapes. Acidwashed apparel designed and produced in Canada. We give acid wash treatment to our apparel by hand in order to achieve a completely unique pattern. It's a special treatment for you, and you only ; )</p>
-    <!-- <div class="w3-panel w3-leftbar w3-light-grey">
-      <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -1px">
-        <div class="w3-third w3-light-grey">
-        </div> -->
-          <!-- <a href="https://www.instagram.com/mojapparel/" target="_blank" style = "padding:2.5%">  <i  class="fa fa-facebook w3-xxlarge"></i></a>
-          <a href="https://www.instagram.com/mojapparel/" target="_blank" style = "padding:2.5%"> <i class="fa fa-twitter w3-xxlarge"></i></a>
-          <a href="https://www.instagram.com/mojapparel/" target="_blank"  style = "padding:2.5%"> <i class="fa fa-github w3-xxlarge"></i></a></p> -->
-        </div>
-    </div>
-    <!-- <p><strong>Proudly made in Hamilton</strong></p> -->
-  </div>
 </div>
-
-
-
-     <!-- Subscribe section -->
-     <!-- <div class="w3-container w3-black w3-padding-32">
-       <h1>Subscribe</h1>
-       <p>To get special offers and VIP treatment:</p>
-       <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
-       <button type="button" class="w3-button w3-red w3-margin-bottom">Subscribe</button>
-     </div> -->
 
 <!--footer  -->
 
