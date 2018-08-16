@@ -96,7 +96,7 @@ body, html {
 }
 
 /* Fading animation */
-.fade {
+/* .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 10s;
   animation-name: fade;
@@ -111,7 +111,7 @@ body, html {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-}
+} */
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
@@ -124,7 +124,7 @@ body, html {
   width: 60%;
   position: relative;
   left: 30%;
-  top:10%;
+  top:8px;
   background-image: url('images/texture.jpg');
 }
 
@@ -151,13 +151,13 @@ bottom: 33px;
   position:absolute;
   margin-left: auto;
   margin-right: auto;
-  top:5%;
+  top:30%;
   /* max-width:40%; */
   /* max-height: 406px; */
-  font-size: 250px;
+  font-size: 200px;
   /* background-color: rgba(0,0,0,0.85); */
   text-align: center;
-  left: 23%;
+  left: 20%;
 }
 
 .moj mark {
