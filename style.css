@@ -194,17 +194,24 @@ bottom: 33px;
   text-align:center;
   width:150%;
   color: black
+
 }
 
 .shippingDisclaimer {
   text-align:left;
-  width:150%;
-  color: black
+  width:100%;
+  /* background:black; */
+  color:white;
+}
+
+mark {
+    background-color: black;
+    color: white;
 }
 
 .thanks {
- background: none;
- color: black;
+ /* background: none;
+ color: black; */
  position: relative;
  top:200px;
 
