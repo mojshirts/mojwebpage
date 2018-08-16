@@ -168,18 +168,17 @@ bottom: 33px;
   max-width:40%;
   max-height: 406px;
   font-size: 250px;
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0,0,0,0.85);
   text-align: center;
   left: 50%;
 }
 
 .contactUsTitle {
   position: absolute;
-  bottom: 55%;
+  bottom: 75%;
   left: 43%;
   background: none;
   color: white;
-  font-size: 270%;
 }
 
 .contactUsButton {
@@ -187,4 +186,26 @@ bottom: 33px;
   left:40%;
   font-size: 250%;
   width:20%;
+}
+
+/*disclaimer  */
+
+.disclaimer {
+  text-align:center;
+  width:150%;
+  color: black
+}
+
+.shippingDisclaimer {
+  text-align:left;
+  width:150%;
+  color: black
+}
+
+.thanks {
+ background: none;
+ color: black;
+ position: relative;
+ top:200px;
+
 }
