@@ -123,8 +123,9 @@ body, html {
   font-size: 200%;
   width: 60%;
   position: relative;
-  left: 20%;
-  top:10%
+  left: 30%;
+  top:10%;
+  background-image: url('images/texture.jpg'); */
 }
 
 /*cart ircon  */
@@ -144,20 +145,6 @@ position: relative;
 bottom: 33px;
 }
 
-/* moj strip */
-.mojStrip {
-  opacity: 0.9;
-  position:relative;
-  margin-left: auto;
-  height: 55%;
-  margin-right: auto;
-  /* bottom:245%; */
-  bottom:1660px;
-
-  max-width:45%;
-  font-size: 2000%;
-}
-
 /*moj  */
 
 .moj {
@@ -165,12 +152,17 @@ bottom: 33px;
   margin-left: auto;
   margin-right: auto;
   top:5%;
-  max-width:40%;
-  max-height: 406px;
+  /* max-width:40%; */
+  /* max-height: 406px; */
   font-size: 250px;
-  background-color: rgba(0,0,0,0.85);
+  /* background-color: rgba(0,0,0,0.85); */
   text-align: center;
-  left: 50%;
+  left: 23%;
+}
+
+.moj mark {
+    background-color: rgba(0,0,0,0.85);
+    color: white;
 }
 
 .contactUsTitle {
@@ -184,7 +176,7 @@ bottom: 33px;
 .contactUsButton {
   position: absolute;
   left:40%;
-  font-size: 250%;
+  font-size: 150%;
   width:20%;
 }
 
