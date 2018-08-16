@@ -125,7 +125,7 @@ body, html {
   position: relative;
   left: 30%;
   top:10%;
-  background-image: url('images/texture.jpg'); */
+  background-image: url('images/texture.jpg');
 }
 
 /*cart ircon  */
@@ -169,8 +169,8 @@ bottom: 33px;
   position: absolute;
   bottom: 75%;
   left: 43%;
-  background: none;
-  color: white;
+  /* background: none; */
+  /* color: white; */
 }
 
 .contactUsButton {
@@ -178,7 +178,14 @@ bottom: 33px;
   left:40%;
   font-size: 150%;
   width:20%;
+  background: black;
+  text-align: center;
 }
+
+/* .contactUsButton mark {
+    background-color: black;
+    color: white;
+} */
 
 /*disclaimer  */
 
@@ -206,5 +213,13 @@ mark {
  color: black; */
  position: relative;
  top:200px;
+
+}
+
+.footer {
+  height:20%;
+  position:relative;
+  top:10%;
+  background-image: url('images/texture.jpg');
 
 }
