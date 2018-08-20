@@ -243,7 +243,7 @@ mark {
 }
 #carrousel .owl-carousel img {
   max-height: 100%;
-  max-width: 100%;
+  max-width: 130%;
   width: auto;
   height: auto;
   position: absolute;
