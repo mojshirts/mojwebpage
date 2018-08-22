@@ -224,10 +224,10 @@ mark {
 }
 
 /*carousel  */
-#carrousel {
+/* #carrousel {
   margin: 10px;
-}
-@media (max-width: 768px) {
+} */
+/* @media (max-width: 768px) {
   #carrousel {
     margin: 70px 0px 0px 0px;
   }
@@ -236,17 +236,17 @@ mark {
   #carrousel {
     margin: 50px 0px 0px 0px;
   }
-}
-#carrousel .title {
+} */
+/* #carrousel .title {
   margin-bottom: 10px;
   font-size: 30px;
-}
+} */
 #carrousel .owl-carousel img {
   max-height: 100%;
   max-width: 130%;
   width: auto;
   height: auto;
-  position: absolute;
+  position: relative;
   top: 0;
   bottom: 0;
   left: 0;
@@ -271,7 +271,7 @@ mark {
   -webkit-transform: all .2s;
   z-index: 1;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   #carrousel .owl-carousel .owl-item {
     height: 270px;
   }
@@ -280,8 +280,8 @@ mark {
   #carrousel .owl-carousel .owl-item {
     height: 200px;
   }
-}
-#carrousel .owl-carousel .owl-stage-outer {
+} */
+/* #carrousel .owl-carousel .owl-stage-outer {
   padding-bottom: 10px;
 }
 #carrousel .owl-item.big {
@@ -293,9 +293,8 @@ mark {
   transform: scale(0.8);
   -ms-transform: scale(0.8);
   z-index: 2;
-}
-#carrousel .owl-item.medium.mdright {
-  /*border: solid 1px red;*/
+} */
+/* #carrousel .owl-item.medium.mdright {
   position: relative;
   left: -30px;
 }
@@ -305,7 +304,6 @@ mark {
   }
 }
 #carrousel .owl-item.medium.mdleft {
-  /*border: solid 1px blue;*/
   position: relative;
   right: -30px;
 }
@@ -313,36 +311,36 @@ mark {
   #carrousel .owl-item.medium.mdleft {
     right: 0px;
   }
-}
-#carrousel .owl-item.smallRight.active {
+} */
+/* #carrousel .owl-item.smallRight.active {
   transform: scale(0.7);
   -ms-transform: scale(0.7);
   position: relative;
   left: -30px;
-}
-#carrousel .owl-item.smallLeft.active {
+} */
+/* #carrousel .owl-item.smallLeft.active {
   transform: scale(0.7);
   -ms-transform: scale(0.7);
   position: relative;
   right: -30px;
-}
-#carrousel .owl-nav {
+} */
+/* #carrousel .owl-nav {
   position: absolute;
   top: 30%;
   width: 100%;
-}
-#carrousel .owl-nav .owl-prev {
+} */
+/* #carrousel .owl-nav .owl-prev {
   position: absolute;
   left: 0px;
   top: 10px;
   background: transparent !important;
   color: #000 !important;
   font-size: 40px !important;
-}
-#carrousel .owl-nav .owl-prev:hover {
+} */
+/* #carrousel .owl-nav .owl-prev:hover {
   color: #adadad !important;
-}
-#carrousel .owl-nav .owl-next {
+} */
+/* #carrousel .owl-nav .owl-next {
   position: absolute;
   right: 0px;
   top: 10px;
@@ -352,7 +350,7 @@ mark {
 }
 #carrousel .owl-nav .owl-next:hover {
   color: #adadad  !important;
-}
+} */
 
 /*contact form  */
 
@@ -380,8 +378,8 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-.container {
+/* .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-}
+} */
