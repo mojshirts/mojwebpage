@@ -53,23 +53,23 @@
 			 </div> -->
 
 
- <!-- icon-bar -->
- <div class="icon-bar" >
- <a href="https://www.facebook.com/M%C3%98J-Apparel-215913839077664/" target="_blank" class="facebook"><i class="fa fa-facebook" style="font-size:48px"></i></a>
- <!-- <a href="https://www.instagram.com/mojapparel/" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a> -->
- <a href="https://www.instagram.com/mojapparel/" target="_blank" class="instagram"><i class="fa fa-instagram" style="font-size:48px"></i></a>
- </div>
-</div>
-</header>
 
     <!-- contact us -->
-    <div class="w3-content w3-section"  id="ContactUs" >
-      <h1 class="w3-center w3-padding-24"><span class="w3-tag w3-wide contactUsTitle">Cøntact MØJ</span></h1>
+    <br><br><br><br>
+    <div class="container">
+    <form action="action_page.php">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="firstname" placeholder="Your name..">
 
+      <label for="email">E-mail</label>
+      <input type="text" id="email" name="lastname" placeholder="Your e-mail..">
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdmutRyc_-E3cElyFpeojs7NhZLj7houl1Gl4xJHRdTDgnjCQ/viewform?embedded=true" width="1000" height="1220" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe><!-- <a2 class="w3-center w3-padding-48  contactUsTitle">Cøntact Us</a> -->
+      <label for="message">Comments</label>
+      <textarea id="message" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-</div>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
 
 <!-- Add a background color and large text to the whole page -->
 <div class="w3-lightgrey w3 w3-large">
