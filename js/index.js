@@ -8,10 +8,10 @@ $('.owl-carousel').owlCarousel({
     0:{
       items: 2,
     },
-    768:{
+    1768:{
       items: 3,
     },
-    990:{
+    2990:{
       items: 5,
     }
   },
@@ -43,7 +43,7 @@ var click = false;
 //   click = !click;
 //   if(click){
     $('.status').html('Autoplay: ON');
-    $('.owl-carousel').trigger('play.owl.autoplay', [1000, 4000]);
+    $('.owl-carousel').trigger('play.owl.autoplay', [4001, 4000]);
   //   $(this).html("Stop");
   // } else {
   //   $('.owl-carousel').trigger('stop.owl.autoplay');

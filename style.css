@@ -158,6 +158,7 @@ bottom: 33px;
   /* background-color: rgba(0,0,0,0.85); */
   text-align: center;
   left: 20%;
+  
 }
 
 .moj mark {
@@ -217,7 +218,7 @@ mark {
 }
 
 .footer {
-  height:20%;
+  height:10%;
   position:relative;
   top:10%;
   background-image: url('images/texture.jpg');
@@ -242,8 +243,8 @@ mark {
   font-size: 30px;
 } */
 #carrousel .owl-carousel img {
-  max-height: 100%;
-  max-width: 130%;
+  max-height: 150%;
+  max-width: 140%;
   width: auto;
   height: auto;
   position: relative;
@@ -383,3 +384,41 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 } */
+
+/*buy an original tee  */
+
+.buyAnOriginalTee {
+  font-size:190%;
+  position:relative;
+  bottom:100px;
+  left: 20%;
+  font-size: 400%;
+  color: #ff5733 ;
+  margin-bottom: 2%
+}
+
+/*about  */
+.about {
+  position: relative;
+left:4%;
+}
+
+/*carrousel container  custom*/
+.carrouselContainerCustom {
+  max-width:1500px;
+  height: 10%;
+  margin-top:9%;
+  /* margin-left:10%; */
+}
+
+.carrouselPhotoContainer {
+  bottom:150px;
+  position:relative;
+}
+
+.carrouselPhotos{
+  width:120%;
+  /* height:200%; */
+position:relative;
+bottom:100px;
+}
