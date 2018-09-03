@@ -102,12 +102,10 @@ body, html {
   animation-name: fade;
   animation-duration: 10s;
 }
-
 @-webkit-keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
 }
-
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
@@ -128,21 +126,17 @@ body, html {
   background-image: url('images/texture.jpg');
 }
 
-/*cart ircon  */
-.cartIcon {
-font-size: 200%;
-position:relative;
-bottom:45px;
-left:45%;
-margin-right: 60%;
-}
-
 /* logo */
 .logo {
 max-width:20px;
 min-width:65px;
+
+}
+
+.logoPos {
 position: relative;
-bottom: 33px;
+bottom: 65px;
+right:75%
 }
 
 /*moj  */
@@ -165,6 +159,13 @@ bottom: 33px;
     color: white;
 }
 
+.picsFromfirstSlideShow {
+  width:150%;
+}
+
+.picsFromfirstSlideShowException{  width:120%;
+}
+
 .contactUsTitle {
   position: absolute;
   bottom: 75%;
@@ -180,6 +181,7 @@ bottom: 33px;
   width:20%;
   background: black;
   text-align: center;
+
 }
 
 /* .contactUsButton mark {
@@ -344,13 +346,30 @@ mark {
   position: absolute;
   right: 0px;
   top: 10px;
-  background: transparent !important;
-  color: #000 !important;
-  font-size: 40px !important;
+  background: transparent !important;/*menu*/
+.topMenuItems {
+  font-size: 200%;
+  width: 60%;
+  position: relative;
+  left: 30%;
+  top:8px;
+  background-image: url('images/texture.jpg');
 }
-#carrousel .owl-nav .owl-next:hover {
-  color: #adadad  !important;
-} */
+
+.topMenuItemsBasket {
+  font-size: 200%;
+  width: 60%;
+  height: 60px;
+  position: relative;
+  left: 30%;
+  top:9px;
+  background-image: url('images/texture.jpg');
+}
+
+/*icons  */
+.icons{
+  font-size:48px
+}
 
 /*contact form  */
 
@@ -399,7 +418,13 @@ input[type=submit]:hover {
 /*about  */
 .about {
   position: relative;
-left:4%;
+  left:4%;
+}
+
+.aboutContent {
+  font-size:150%; color:black;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /*carrousel container  custom*/
@@ -420,4 +445,95 @@ left:4%;
   /* height:200%; */
   position:relative;
   bottom:100px;
+}
+
+.copyright{
+color:w3-light-grey
+}
+
+
+/*cellphone optimization  */
+@media screen and (max-width: 600px) {
+
+  .moj {font-size: 3em;}
+  /*menu*/
+  .topMenuItems {
+    font-size: 50%;
+    width: 70%;
+    position: relative;
+     left: 25%;
+    top:8px;
+    padding: none;
+    background-image: url('images/texture.jpg');
+  }
+
+  .topMenuItemsBasket {
+    font-size: 50%;
+    width: 70%;
+    height:30px;
+    position: relative;
+    left: 20%;
+    top:6px;
+    padding: none;
+    background-image: url('images/texture.jpg');
+  }
+
+  /* logo */
+  .logo {
+  display: none;
+  /* width:0.5%; */
+
+  }
+
+  .logoPos {
+    position: relative;
+    bottom: 33px;
+    left:0%;
+  }
+
+  /*icons  */
+  .icons{
+    font-size:1.25em;
+  }
+
+  .picsFromfirstSlideShow {
+    width:150%;
+  }
+
+  .picsFromfirstSlideShowException{  width:130%;
+  }
+
+.buyAnOriginalTee {
+    font-size:100%;
+    position:relative;
+    left: 0%;
+    color: #ff5733 ;
+    margin-top: 30%;
+    margin-bottom: 10%
+  }
+
+  /*about  */
+  .about {
+    position: relative;
+    left:4%;
+    font-size: 70%;
+  }
+  .aboutContent {
+    font-size:100%; color:black;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .contactUsButton {
+    position: absolute;
+    left:30%;
+    font-size: 100%;
+    width:50%;
+    background: black;
+    text-align: center;
+  }
+  .copyright{
+  color:w3-light-grey;
+  font-size: 60%;
+  }
 }
