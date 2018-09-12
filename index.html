@@ -4,56 +4,70 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata"> -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-
-<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"> -->
-
-<!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'> -->
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
-
-
-<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"> -->
-
-<!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'> -->
-<!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'> -->
-
 <link rel="stylesheet" href="style.css">
 <script src="js/jquery.min.js"></script>
 <script src="js/simpleCart.min.js"> </script>
 
 <body>
   <!-- Links (sit on top) -->
-  <div class="w3-top">
+
+  <div class="topnav" id="myTopnav">
+  <!-- <a img src="images/logo.jpg" class="active">Home</a> -->
+  <a class=" logo "></a>
+  <a href="index.html#home" class=" menuButton">HØME</a>
+  <a href="shop.html"  style="color:#ff5733" class="  menuButton">SHØP</a>
+  <a href="index.html#about" class="  menuButton">ABØÜT</a>
+  <form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+  <input type="hidden" name="cmd" value="_s-xclick">
+  <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+  ">
+  <input type="submit" class="w3-button w3-black menuButton" name="submit" value="BASKET" >
+ </form>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+  <!-- <div class="w3-top">
     <div class="w3-row w3-padding w3-black " style="max-height:100px; width:100%">
 
       <div class="w3-col s3">
-
-        <a  href="index.html#home" class="w3-button w3- w3-black  topMenuItems">HØME</a>
+        <a  href="index.html#home" class="w3-button w3-black topMenuItems">HØME</a>
       </div>
       <div class="w3-col s3">
-        <a href="shop.html"  style="color:#ff5733" class="w3-button w3-block topMenuItems">SHØP</a>
+        <a href="shop.html"  style="color:#ff5733" class="w3-button  topMenuItems">SHØP</a>
       </div>
       <div class="w3-col s3">
-        <a href="index.html#about" class="w3-button w3-block w3-black topMenuItems">ABØÜT</a>
-      </div>
+        <a href="index.html#about" class="w3-button w3-block  topMenuItems">ABØÜT</a>
+      </div> -->
 
         <!-- <a href=checkout.html class="w3-button w3-block w3-black" style="width: 30%; margin-left: 250%; position: relative; bottom: 35px"> CART <i class="fa fa-shopping-cart"></i></a> -->
-        <div class="w3-col s3">
+        <!-- <div class="w3-col s3"> -->
           <!-- <a href=cart.html class="w3-button w3-block w3-black" style="width: 70%; margin-left: 250%; position: relative; bottom: 20px; right: 30%"><img src="images/cart.png" alt=""/> CART: <span id="simpleCart_quantity" class="simpleCart_quantity"></span> item(s) </a> -->
-          <form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+          <!-- <form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
           <input type="hidden" name="cmd" value="_s-xclick">
           <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
           ">
-          <input type="submit" class="w3-button w3-block w3-black topMenuItemsBasket" name="submit" value="BASKET" >
+          <input type="submit" class="w3-button w3-block w3-black topMenuItems" name="submit" value="BASKET" >
          </form>
-        </div>
+        </div> -->
 
-  <!-- logo -->  <div class="logoPos" > <img src="images/logo.jpg"  class="logo"> </div>
+        <!-- logo -->
+        <!-- <div class="logo" > <img src="images/logo.jpg"  class="logo"> </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
 <!-- Header with image -->
 <div class="slideshow-container" style="bottom:20px; width:100%" id= "home">
@@ -64,22 +78,18 @@
 
 <div class="mySlides fade">
   <img src="images/photoz/2.jpg" class="picsFromfirstSlideShow">
-  <!-- <div class="text" style= "position:relative; left:27%; bottom:1300px; font-size: 600% ">MØJ </div> -->
 </div>
 
 <div class="mySlides fade">
   <img src="images/photoz/3.jpg" class="picsFromfirstSlideShow">
-  <!-- <div class="text" style= "position:relative; left:27%; bottom:1080px; font-size: 600% ">MØJ </div> -->
 </div>
 
 <div class="mySlides fade">
   <img src="images/photoz/4.jpg" class="picsFromfirstSlideShow">
-  <!-- <div class="text" style= "position:relative; left:27%; bottom:1080px; font-size: 600% ">MØJ </div> -->
 </div>
 
 <div class="mySlides fade">
   <img src="images/photoz/5.jpg" style="width:150%">
-  <!-- <div class="text" style= "position:relative; left:27%; bottom:1080px; font-size: 600% ">MØJ </div> -->
 </div>
 
 
@@ -123,47 +133,8 @@ function showSlides() {
 <a href="https://www.instagram.com/mojapparel/" target="_blank" class="instagram"><i class="fa fa-instagram icons"></i></a>
 </div>
 </div>
-
-
-
-  <!-- <div class="w3-display-middle w3-center">
-    <span class="w3-text-black" style="font-size:90px">MØJ</span>
-  </div> -->
 </header>
 
-<!-- Menu Container -->
-    <!-- Product grid -->
-    <!-- <h2 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">SHOP</span></h2> -->
-
-    <!-- <div class="w3-content w3-section"  id="shop" style="max-width:500px; height: 50%" >
-      <br><br><br><br><br><br>
-      <a href="shop.html"> <img class="shopSlides" src="images/photoz/1.jpg"  style="width:100%"> </a>
-      <a href="shop.html">  <img class="shopSlides" src="images/photoz/2.jpg" style="width:100%"> </a>
-      <a href="shop.html"> <img  class="shopSlides" src="images/photoz/3.jpg" style="width:100%"></a>
-      <a href="shop.html" class="w3-center w3-padding-48" ><span class="w3-tag w3-wide" style="font-size:150%; position:relative; bottom:200px; left: 7%">Buy an øriginal acidwashed tee </span></a>
-
-    </div>
-</div>
-    <script>
-    var myIndex = 0;
-    carousel();
-
-    function carousel() {
-        var i;
-        var x = document.getElementsByClassName("shopSlides");
-        for (i = 0; i < x.length; i++) {
-           x[i].style.display = "none";
-        }
-        myIndex++;
-        if (myIndex > x.length) {myIndex = 1}
-        x[myIndex-1].style.display = "block";
-        setTimeout(carousel, 2000); // Change image every 2 seconds
-    }
-    </script> -->
-
-<!--carousel  -->
-
-<!-- <div id="carrousel"> -->
 <div  id="carrousel">
   <div class="container carrouselContainerCustom">
       <!-- <div class="title col-md-12 text-center"> Waterwheel Owl Carousel 2</div> -->
