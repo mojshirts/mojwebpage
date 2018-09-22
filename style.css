@@ -144,7 +144,7 @@ body, html {
   margin-top: 1.5%;
   margin-right: 5%;
   width:15%;
-  height: 50%;
+  height: 42%;
   border: none;
   border-radius: 4px;
 }
@@ -292,6 +292,8 @@ mark {
     background-color: black;
     color: white;
 }
+
+
 
 .thanks {
  /* background: none;
@@ -445,7 +447,18 @@ input[type=text], select, textarea {
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
+    box-sizing: border-box;moj {
+  position:absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top:30%;
+  /* max-width:40%; */
+  /* max-height: 406px; */
+  font-size: 200px;
+  /* background-color: rgba(0,0,0,0.85); */
+  text-align: center;
+  left: 20%;
+}
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
@@ -518,7 +531,65 @@ input[type=submit]:hover {
 color:w3-light-grey
 }
 
+.discountLabel2ndSLider{
+ font-size: 300%;
+ position: absolute;
+ top:50%; left:50%;
+ color:#808080;
+}
 
+.promoCode{
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    top:0%;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    color: white;
+    left: 0%;
+    width: 140%
+  }
+
+  .promoCode2ndSlider{
+background-color: rgba(0,0,0,0.1);
+      color: white;
+    }
+
+/* shop container */
+.shopContainerMaster{
+
+  position: relative;
+  bottom: 13%;
+}
+.orderOriginalTee {
+  font-size:200%
+}
+.shopContainer {
+
+  position: relative;
+  left:50%;
+  bottom: 50px;
+  width: 120%;
+}
+.shopImageExample{
+
+  width:160%;
+  position: relative;
+  left:100%;
+}
+
+.discountLabelShopPhoto {
+  font-size: 300%;
+position: absolute;
+top:30%; left:160%;
+color:#808080;
+background-color: rgba(0,0,0,0.5);
+}
+
+.addToBasketShop{
+  font-size: 150%;
+}
 /*cellphone optimization  */
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
@@ -534,7 +605,9 @@ color:w3-light-grey
     position: absolute;
     right: 0;
     top: 0;
-  }
+  }  .orderOriginalTee {
+      font-size:100%
+    }
   .topnav.responsive a {
     float: none;
     display: block;
@@ -593,7 +666,9 @@ color:w3-light-grey
   }
 
   /*social media icons  */
-  .icons{
+  .icons{  .orderOriginalTee {
+      font-size:100%
+    }
     font-size:1.25em;
   }
 
@@ -626,7 +701,7 @@ color:w3-light-grey
     position:relative;
     left: 0%;
     color: #ff5733 ;
-    margin-top: 30%;
+    margin-top: 0%;
     margin-bottom: 10%
   }
 
@@ -635,18 +710,23 @@ color:w3-light-grey
     position: relative;
     left:4%;
     font-size: 70%;
+
   }
+
   .aboutContent {
     font-size:100%; color:black;
     text-align: justify;
     text-justify: inter-word;
+    height: 130px;
   }
 
   .contactUsButton {
     position: absolute;
     left:30%;
     font-size: 100%;
-    width:50%;
+    width:50%;  .orderOriginalTee {
+      font-size:100%
+    }
     background: black;
     text-align: center;
   }
@@ -654,4 +734,91 @@ color:w3-light-grey
   color:w3-light-grey;
   font-size: 60%;
   }
+
+/*promo  */
+  .discountLabel2ndSLider{
+   font-size: 150%;
+   position: absolute;
+   top:50%; left:50%;
+   color:#808080;
+  }
+
+  .promoCode{
+      position:absolute;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 130%;
+      top:0%;
+      background-color: rgba(0,0,0,0.5);
+      text-align: center;
+      color: white;
+      left: 0%;
+      width: 140%
+    }
+
+    /* shop container */
+    .shopContainerMaster{
+      position: relative;
+      bottom: 50%;
+    }
+
+   .orderOriginalTee {
+     position: relative;
+     bottom: 100px;
+      font-size:110%
+    }
+
+    .sizeNotesDisclaimer {
+      position: relative;
+      top:80px;
+    }
+
+    .shippingDisclaimer {
+      position: relative;
+      bottom:35px;
+      text-align:left;
+      width:100%;
+      height:0px;
+      color:white;
+      font-size: 80%;
+    }
+
+    .shopContainer {
+      position: relative;
+      left:25%;
+      top: 40px;
+      width: 160%;
+    }
+    .shopImageExample{
+      width:160%;
+      position: relative;
+      left:-75%;
+      top: 5px;
+    }
+
+    .discountLabelShopPhoto {
+    font-size: 100%;
+    position: absolute;
+    top:30%;
+    left:-30%;
+    color:#808080;
+    background-color: rgba(0,0,0,0.5);
+
+    }
+
+    .addToBasketShop{
+      font-size: 50%;
+    }
+
+
+    /*footer  */
+    .footer {
+      height:10%;
+      position:relative;
+      top:10%;
+      background-image: url('images/texture.jpg');
+    }
+
+
+
 }

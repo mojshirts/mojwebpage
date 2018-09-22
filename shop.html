@@ -8,8 +8,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="style.css">
-<script src="js/jquery.min.js"></script>
-<script src="js/simpleCart.min.js"> </script>
+
 <body>
   <!-- Links (sit on top) -->
   <div class="topnav" id="myTopnav">
@@ -56,47 +55,53 @@ function myFunction() {
 </header>
 
     <!-- Product grid -->
-    <div class="w3-container" id="shop">
+    <div class="w3-container shopContainerMaster" id="shop">
       <br> <br><br><br>
             <h2 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">SHØP</span></h2>
          <div class="w3-row w3">
            <div class="w3-col l3 s6">
              <div class="w3-container-large">
-               <div class="w3-display-container" style="left:25%">
-               <img src="images/side.jpg" style="width:160%">
-               <p class="disclaimer"></p>
+               <div class="w3-display-container shopContainer">
+
+                 <p class="orderOriginalTee">Ørder an øriginal acidwashed tee</p>
+                <div class= "sizeNotesDisclaimer"
+
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="2S533M3LFC7ZN">
+<table>
+<tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+	<option value="Small">Small $49.99 CAD</option>
+	<option value="Medium">Medium $49.99 CAD</option>
+	<option value="Large">Large $49.99 CAD</option>
+</select> </td></tr>
+<tr><td><input type="hidden" name="on1" value="NØTES">NØTES</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
+</table>
+<input type="hidden" name="currency_code" value="CAD">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+                 <!-- <input type="submit"  class="w3-button w3-block w3-black addToBasketShop" border="0" name="submit" value="add tø basket" > -->
+
+                     <p class="shippingDisclaimer"><mark>* Shipping to Canada and US: 2-10 business days. </mark><br><mark> To the rest of the world: 5-15 days.<br><br> </mark>
+                    <mark> ** You are not purchasing the exact item in the photograph. A brand new acid washed t-shirt with a completely random pattern will be shipped to you.</p></mark>
+</div>
+
              </div>
            </div>
          </div>
 
          <!--shopping cart  -->
-           <div class="w3-col l3 s6">
+           <div class="w3-col l3 s6" class="shopContainer">
              <div class="w3-container-large">
-               <div class="w3-display-container" style="left:150%; bottom:40px; width:120%">
-                 <div class="desc1 span_3_of_2">
-                 <p style="font-size:200%">Ørder an øriginal acidwashed tee</p>
+               <div class="w3-display-container" >
 
-                 <form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                 <input type="hidden" name="cmd" value="_s-xclick">
-                 <input type="hidden" name="hosted_button_id" value="BTWYNU4C8F4K8">
-                 <table>
-                 <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
-                   <option value="Small">Small $44.99 CAD</option>
-                   <option value="Medium">Medium $44.99 CAD</option>
-                   <option value="Large">Large $44.99 CAD</option>
-                   <!-- <option value="test">test $1.00 CAD</option> -->
-                 </select> </td></tr>
-                 <tr><td><input type="hidden" name="on1" value="NØTES">NØTES</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
-                 </table>
-                 <input type="hidden" name="currency_code" value="CAD">
-                 <input type="submit"  class="w3-button w3-block w3-black" border="0" name="submit" value="add tø basket" style="font-size:150%">
-                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                 </form>
 
-                     <p class="shippingDisclaimer"><mark>* Shipping to Canada and US: 2-10 business days. </mark><br><mark> To the rest of the world: 5-15 days.<br><br> </mark>
-                    <mark> ** You are not purchasing the exact item in the photograph. A brand new acid washed t-shirt with a completely random pattern will be shipped to you.</p></mark>
+                 <a> <img src="images/side.jpg" class="shopImageExample"> <mark class= "discountLabelShopPhoto">  <strike> $49.99 </strike> <b style="color:white">$39.99</b> </mark> </a>
+                 <p class="disclaimer"></p>
 
-                      </div>
+
                  </div>
                        <div class="clearfix"></div>
                       </div>
