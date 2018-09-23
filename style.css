@@ -544,9 +544,9 @@ color:w3-light-grey
     margin-right: auto;
     font-size: 50px;
     top:0%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(255,255,0,0.8);
     text-align: center;
-    color: white;
+    color: black;
     left: 0%;
     width: 140%
   }
@@ -701,7 +701,7 @@ background-color: rgba(0,0,0,0.5);
     position:relative;
     left: 0%;
     color: #ff5733 ;
-    margin-top: 0%;
+    margin-top: -15%;
     margin-bottom: 10%
   }
 
@@ -717,7 +717,7 @@ background-color: rgba(0,0,0,0.5);
     font-size:100%; color:black;
     text-align: justify;
     text-justify: inter-word;
-    height: 130px;
+    height: 200px;
   }
 
   .contactUsButton {
@@ -749,9 +749,9 @@ background-color: rgba(0,0,0,0.5);
       margin-right: auto;
       font-size: 130%;
       top:0%;
-      background-color: rgba(0,0,0,0.5);
+      background-color: rgba(255,255,0,0.8);
       text-align: center;
-      color: white;
+      color: black;
       left: 0%;
       width: 140%
     }
