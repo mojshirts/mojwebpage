@@ -666,11 +666,13 @@ background-color: rgba(0,0,0,0.5);
   }
 
   /*social media icons  */
-  .icons{  .orderOriginalTee {
+  .icons{
+    font-size:1.25em;
+    }
+     .orderOriginalTee {
       font-size:100%
     }
-    font-size:1.25em;
-  }
+
 
 .icon-bar {
   position: relative;
