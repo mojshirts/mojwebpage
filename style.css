@@ -669,8 +669,13 @@ background-color: rgba(0,0,0,0.5);
   .icons{
     font-size:1.25em;
     }
-     .orderOriginalTee {
-      font-size:100%
+
+
+    .facebook {
+      background: transparent;
+      color: transparent;
+      position: relative;
+      right: 1%;
     }
 
 
@@ -703,7 +708,7 @@ background-color: rgba(0,0,0,0.5);
     position:relative;
     left: 0%;
     color: #ff5733 ;
-    margin-top: -15%;
+    margin-top: 5%;
     margin-bottom: 10%
   }
 
