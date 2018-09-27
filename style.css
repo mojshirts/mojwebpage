@@ -136,7 +136,6 @@ body, html {
   font-size: 120%;
   background: url('images/texture.jpg');
   background-size: 20%;
-
   margin-top: 1.5%;
   margin-right: 5%;
   width:15%;
@@ -144,6 +143,29 @@ body, html {
   border: none;
   border-radius: 4px;
 }
+
+.menuButtonLogo{
+  position: relative;
+  top: 3px;
+  left: 0.5%;  background-image: url('images/logoMini.jpg');
+  background-repeat:no-repeat;
+  background-size:70px 90px;
+  width:4.4%;
+  height: 90px;
+}
+
+
+/* logo */
+/* .logo {
+  position: relative;
+  top: 3px;
+  left: 0.5%;
+  background-image: url('images/logoMini.jpg');
+  background-repeat:no-repeat;
+  background-size:70px 90px;
+  width:5%;
+  height: 100px;
+} */
 
 .topnav .icon {
   display: none;
@@ -199,18 +221,6 @@ body, html {
 
 
 
-
-/* logo */
-.logo {
-  position: relative;
-  top: 3px;
-  left: 0.5%;
-  background-image: url('images/logoMini.jpg');
-  background-repeat:no-repeat;
-  background-size:70px 90px;
-  width:5%;
-  height: 100px;
-}
 
 .logoPos {
 position: relative;
@@ -461,9 +471,13 @@ background-color: rgba(0,0,0,0.1);
 
 /* shop container */
 .shopContainerMaster{
-
   position: relative;
-  bottom: 25%;
+}
+
+.shopLabel {
+  position: relative;
+  bottom: 100px;
+
 }
 .orderOriginalTee {
   font-size:200%
@@ -472,14 +486,14 @@ background-color: rgba(0,0,0,0.1);
 
   position: relative;
   left:50%;
-  bottom: 50px;
+  bottom: 140px;
   width: 120%;
 }
 .shopImageExample{
-
   width:160%;
   position: relative;
   left:100%;
+    bottom: 100px;
 }
 
 .discountLabelShopPhoto {
@@ -526,6 +540,22 @@ background-color: rgba(0,0,0,0.5);
     border-radius: 4px;
     background: url('images/texture.jpg');
   }
+
+.menuButtonLogo{
+  position: relative;
+  left: 4%;
+  /* font-size: 8%; */
+  background-size: 100%;
+  margin-top: 2%;
+  width:12%;
+  height: 50px;
+  border: none;
+  /* border-radius: 4px; */
+  background: url('images/logoMini.jpg');
+  background-repeat:no-repeat;
+  background-size:contain;
+}
+
 
   .topnav .icon {
     display: none;
@@ -616,17 +646,7 @@ background-color: rgba(0,0,0,0.5);
   }
 
   .moj {font-size: 3em;}
-  /* logo */
-  .logo {
-    position: relative;
-    top: 3px;
-    left: 0.5%;
-    background-image: url('images/logoMini.jpg');
-    background-repeat:no-repeat;
-    background-size: contain;
-    width:7%;
-    height: 100px;
-  }
+
 
 
   input[type=submit] {
@@ -741,16 +761,21 @@ background-color: rgba(0,0,0,0.5);
         /* shop container */
         .shopContainerMaster{
           position: relative;
-          bottom: 50%;
+          top: -25%;
         }
        .orderOriginalTee {
          position: relative;
-         bottom: 100px;
+         bottom: 220px;
           font-size:110%
         }
+
+        .shopLabel {
+          position: relative;
+          bottom: 120px;
+}
         .sizeNotesDisclaimer {
           position: relative;
-          top:80px;
+          bottom:40px;
         }
         .shippingDisclaimer {
           position: relative;
@@ -771,12 +796,12 @@ background-color: rgba(0,0,0,0.5);
           width:160%;
           position: relative;
           left:-75%;
-          top: 5px;
+          bottom: 120px;
         }
         .discountLabelShopPhoto {
         font-size: 100%;
-        position: absolute;
-        top:30%;
+        position: relative;
+        bottom:220px;
         left:-30%;
         color:#808080;
         background-color: rgba(0,0,0,0.5);
@@ -811,4 +836,6 @@ background-color: rgba(0,0,0,0.5);
 
     .picsFromfirstSlideShowException{  width:120%;
     }
+
+
 }
