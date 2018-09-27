@@ -735,11 +735,14 @@ background-color: rgba(0,0,0,0.5);
     }
 
     .lastPicFromfirstSlideShow {
-     width:100%;
+     width:120%;
     }
 
     .picsFromfirstSlideShow {
-      width:100%;
+      width:120%;
     }
 
+
+    .picsFromfirstSlideShowException{  width:120%;
+    }
 }
