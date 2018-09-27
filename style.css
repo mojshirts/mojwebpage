@@ -620,6 +620,8 @@ background-color: rgba(0,0,0,0.5);
   .topnav a.icon {
     float: right;
     display: block;
+    position: relative;
+    bottom: 5px;
   }
 
   .topnav.responsive {position: relative;  z-index:10}
