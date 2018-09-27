@@ -275,8 +275,9 @@ bottom: 50px;
   width:20%;
   background: black;
   text-align: center;
-
 }
+
+
 
 /* .contactUsButton mark {
     background-color: black;
@@ -557,6 +558,7 @@ background-color: rgba(0,0,0,0.5);
 
   .topnav .icon {
     display: none;
+
   }
 
   .dropdown {
@@ -645,13 +647,20 @@ background-color: rgba(0,0,0,0.5);
 
   .moj {font-size: 3em;}
 
-
+  /* basket button */
 
   input[type=submit] {
-  display: none;
-      background-color: #4CAF50;
-      color: white;
-      padding: 12px 20px;
+      background-image:url('images/basket.png');
+      /* background-color: white; */
+      background-repeat:no-repeat;
+      background-size:contain;
+      color: transparent;
+      position: relative;
+      left: 75%;
+      width: 2%;
+      height: 10px;
+      bottom: 85px;
+      /* padding: 12px 20px; */
       border: none;
       border-radius: 4px;
       cursor: pointer;
@@ -661,7 +670,6 @@ background-color: rgba(0,0,0,0.5);
   .icons{
     font-size:1.25em;
     }
-
 
     .facebook {
       background: transparent;
@@ -688,12 +696,7 @@ background-color: rgba(0,0,0,0.5);
   }
 
 
-  .picsFromfirstSlideShow {
-    width:150%;
-  }
 
-  .picsFromfirstSlideShowException{  width:130%;
-  }
 
 .buyAnOriginalTee {
     font-size:100%;
@@ -724,12 +727,28 @@ background-color: rgba(0,0,0,0.5);
     position: absolute;
     left:30%;
     font-size: 100%;
-    width:50%;  .orderOriginalTee {
-      font-size:100%
-    }
+    width:50%;
     background: black;
     text-align: center;
   }
+
+  .contactUsTitle {
+    position: absolute;
+    bottom: 75%;
+    left: 43%;
+    font-size: 50%;
+    /* background: none; */
+    /* color: white; */
+  }
+
+  .form {
+  /* width:1000px;
+   height:1220px;
+   frameborder:0px;
+    marginheight:0;
+    marginwidth:0; */
+  }
+
   .copyright{
   color:w3-light-grey;
   font-size: 60%;
@@ -748,7 +767,7 @@ background-color: rgba(0,0,0,0.5);
       margin-left: auto;
       margin-right: auto;
       font-size: 130%;
-      top:0%;
+      top:-11%;
       background-color: rgba(255,255,0,0.8);
       text-align: center;
       color: black;
@@ -826,12 +845,14 @@ background-color: rgba(0,0,0,0.5);
     .picsFromfirstSlideShow {
       width:120%;
       position: relative;
-      bottom: 0;
+      bottom: 40px;
     }
 
     .picsFromfirstSlideShowException{  width:120%;
       position: relative;
-      bottom: 0;
+      /* bottom: 10px; */
+      bottom: 27px;
+
     }
 
 }
