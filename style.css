@@ -58,6 +58,7 @@ body, html {
   position: relative;
   right: 20%;
   margin: auto;
+
 }
 
 /* Caption text */
@@ -250,9 +251,13 @@ bottom: 50px;
 
 .picsFromfirstSlideShow {
   width:150%;
+  position: relative;
+  bottom: 80px;
 }
 
 .picsFromfirstSlideShowException{  width:120%;
+  position: relative;
+  bottom: 55px;
 }
 
 .contactUsTitle {
@@ -377,24 +382,17 @@ input[type=text], select, textarea {
     resize: vertical;
 }
 
+/* basket button */
 input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
+  color: white;
+    position: relative;
+    left: 73%;
+    bottom: 120px;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
-
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-/* .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-} */
 
 /*buy an original tee  */
 
@@ -456,7 +454,7 @@ color:w3-light-grey
     margin-left: auto;
     margin-right: auto;
     font-size: 50px;
-    top:0%;
+    top:-4.5%;
     background-color: rgba(255,255,0,0.8);
     text-align: center;
     color: black;
@@ -651,12 +649,12 @@ background-color: rgba(0,0,0,0.5);
 
   input[type=submit] {
   display: none;
-      /* background-color: #4CAF50;
+      background-color: #4CAF50;
       color: white;
       padding: 12px 20px;
       border: none;
       border-radius: 4px;
-      cursor: pointer; */
+      cursor: pointer;
   }
 
   /*social media icons  */
@@ -819,23 +817,21 @@ background-color: rgba(0,0,0,0.5);
 
     /* Slideshow container */
     .slideshow-container {
-      width: 1000px;
       position: relative;
+      width: 1000px;
       right: 20%;
       margin: auto;
     }
 
-    .lastPicFromfirstSlideShow {
-     width:120%;
-    }
-
     .picsFromfirstSlideShow {
       width:120%;
+      position: relative;
+      bottom: 0;
     }
-
 
     .picsFromfirstSlideShowException{  width:120%;
+      position: relative;
+      bottom: 0;
     }
-
 
 }
