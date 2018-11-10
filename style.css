@@ -1,17 +1,17 @@
 body, html {
     height: 100%;
-    /* font-family: "PfefferSG", halbfett; */
+    font-family: myFirstFont;
     background:#acacac;
 }
 
 @font-face {
    font-family: myFirstFont;
-   src: url(PfefferSG_halbfett.otf);
+   src: url(fonts/PfefferSG_halbfett.otf);
 }
 
 @font-face {
    font-family: myFirstFont;
-   src: url(PfefferSG_halbfett.otf);
+   src: url(fonts/PfefferSG_halbfett.otf);
    font-weight: bold;
 }
 
@@ -21,11 +21,8 @@ body, html {
 
 
 .icon-bar {
-  position: fixed;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  position: fixed;
 }
 
 .icon-bar a {
@@ -34,11 +31,11 @@ body, html {
   padding: 16px;
   transition: all 0.3s ease;
   color: white;
-  font-size: 20px;
+  font-size: 4vw;
 }
 
 .icon-bar a:hover {
-    background-color: #000;
+    background-color: gray;
 }
 
 .facebook {
@@ -127,7 +124,7 @@ body, html {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.4vw;
 
 }
 
@@ -147,12 +144,13 @@ body, html {
 
 .menuButtonLogo{
   position: relative;
-  top: 3px;
+/*   top: 3px; */
   left: 0.5%;  background-image: url('images/logoMini.jpg');
   background-repeat:no-repeat;
   background-size:70px 90px;
-  width:4.4%;
+  width:70px;
   height: 90px;
+  margin-top: 1%;
 }
 
 
@@ -252,10 +250,13 @@ bottom: 50px;
 .picsFromfirstSlideShow {
   width:150%;
   position: relative;
-  bottom: 80px;
+  bottom: 55px;
 }
 
-.picsFromfirstSlideShowException{  width:120%;
+.picsFromfirstSlideShowException{
+  width:150%;
+  height:100%;
+  min-height:50px;
   position: relative;
   bottom: 55px;
 }
@@ -308,15 +309,12 @@ mark {
 
 
 .thanks {
- /* background: none;
- color: black; */
- position: relative;
- top:200px;
-
+font-size: 3vw;
 }
 
 .footer {
-  height:10%;
+  height:100%;
+  max-height: 50px;
   position:relative;
   top:10%;
   background-image: url('images/texture.jpg');
@@ -353,11 +351,6 @@ mark {
   z-index: 1;
 }
 
-
-/*icons  */
-.icons{
-  font-size:48px
-}
 
 /*contact form  */
 
@@ -401,10 +394,11 @@ input[type=submit] {
   font-size:190%;
   position:relative;
   bottom:100px;
-  left: 20%;
-  font-size: 400%;
+  /* left: 20%; */
+  font-size: 4vw;
   color: #ff5733 ;
-  margin-bottom: 2%
+  margin-bottom: 2%;
+  margin-left: 20%;
 }
 
 /*about  */
@@ -440,7 +434,7 @@ input[type=submit] {
 }
 
 .copyright{
-color:w3-light-grey
+color:white;
 }
 
 .discountLabel2ndSLider{
@@ -496,6 +490,7 @@ background-color: rgba(0,0,0,0.1);
 }
 
 .discountLabelShopPhoto {
+  display: none;
   font-size: 300%;
 position: absolute;
 top:30%; left:160%;
@@ -529,7 +524,7 @@ background-color: rgba(0,0,0,0.5);
   .menuButton{
     position: relative;
     left: 8%;
-    /* font-size: 8%; */
+/*     font-size: 8%; */
     background-size: 1%;
     margin-top: 3%;
     margin-right: 5%;
@@ -540,21 +535,15 @@ background-color: rgba(0,0,0,0.5);
     background: url('images/texture.jpg');
   }
 
-.menuButtonLogo{
-  position: relative;
-  left: 4%;
-  /* font-size: 8%; */
-  background-size: 100%;
-  margin-top: 2%;
-  width:12%;
-  height: 50px;
-  border: none;
-  /* border-radius: 4px; */
-  background: url('images/logoMini.jpg');
-  background-repeat:no-repeat;
-  background-size:contain;
-}
-
+  .menuButtonLogo{
+    position: relative;
+    top: 3px;
+    left: 0.5%;  background-image: url('images/logoMini.jpg');
+    background-repeat:no-repeat;
+    background-size:70px 90px;
+    width:6%;
+    height: 90px;
+  }
 
   .topnav .icon {
     display: none;
