@@ -538,10 +538,11 @@ background-color: rgba(0,0,0,0.5);
   .menuButtonLogo{
     position: relative;
     top: 3px;
-    left: 0.5%;  background-image: url('images/logoMini.jpg');
+    left: 0.5%;
+    background-image: url('images/logoMini.jpg');
     background-repeat:no-repeat;
-    background-size:70px 90px;
-    width:6%;
+    background-size:15vw 22vw;
+    width:20%;
     height: 90px;
   }
 
@@ -649,8 +650,10 @@ background-color: rgba(0,0,0,0.5);
       position: relative;
       left: 75%;
       width: 2%;
-      height: 1px;
-      bottom: 78px;
+      height: 10px;
+      /* min-height: 10px; */
+      margin-top: 8%;
+      /* bottom: 78px; */
       /* padding: 12px 20px; */
       border: none;
       border-radius: 4px;
@@ -686,17 +689,15 @@ background-color: rgba(0,0,0,0.5);
     width:50%;
   }
 
-
-
-
 .buyAnOriginalTee {
-    font-size:100%;
+    /* font-size:100%; */
     position:relative;
-    left: 0%;
-    color: #ff5733;
+    /* color: #ff5733; */
+    /* left: 0%; */
     margin-top: 5%;
     margin-bottom: 10%;
     width: 100%;
+    right: 20%;
   }
 
   /*about  */
@@ -834,15 +835,18 @@ background-color: rgba(0,0,0,0.5);
     }
 
     .picsFromfirstSlideShow {
-      width:120%;
+      width:150%;
       position: relative;
-      bottom: 40px;
+      bottom: 55px;
     }
 
-    .picsFromfirstSlideShowException{  width:120%;
+    .picsFromfirstSlideShowException{  
+
+      width:150%;
+      height:100%;
+      min-height:50px;
       position: relative;
-      /* bottom: 10px; */
-      bottom: 27px;
+      bottom: 55px;
 
     }
 
